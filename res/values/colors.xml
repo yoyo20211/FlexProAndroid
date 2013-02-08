@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <color name="text_color_1">#000000</color>
+	<color name="text_color_2">#76a487</color>
+    <color name="text_color_3">#FF8000</color>
+    
+    <color name="back_color">#ffd1d2d4</color>
+	<drawable name="screen_background_light_gray">#E6E6E6</drawable>
+	
+	<color name="non_download_bg">#CDDCEF</color>			<!-- (205,220,239) -->
+	<color name="white">#FFFFFF</color>						<!-- (255,255,255) -->
+	<color name="red">#FF0000</color>						<!-- (255,0, 0) -->
+	<color name="black">#000000</color>						<!-- (0,0,0) -->
+	
+	<color name="unread_gray_sender">#7A7A7A</color>		<!-- (122,122,122) -->
+	<color name="unread_gray_subject">#ACACAC</color> 		<!-- (172,172,172) -->
+
+	<color name="unread_red_sender">#FF7A7A</color>			<!-- (255,122,122) -->
+	<color name="unread_red_subject">#FFACAC</color>		<!-- (255,172,172) -->
+	<color name="block_red">#FF8E8E</color> 				<!-- (255,142,142) -->
+	<color name="light_red">#FF6767</color> 				<!-- (255,103,103) -->
+	
+	<color name="block_gray">#8E8E8E</color> 				<!-- (142,142,142) -->
+	<color name="input_hint">#848484</color> 				<!-- (132,132,132) -->
+	
+	<color name="light_gray">#676767</color> 				<!-- (103,103,103) -->
+	
+	<!-- <color name="light_gray">#636363</color>	(99,99,99) -->
+	<color name="dark_gray">#484848</color>					<!-- (72,72,72) -->
+
+	<color name="dropdown_font_gray">#4B4B4B</color>
+	<color name="dropdown_font_white">#FFFFFF</color>
+    <drawable name="dropdown_divider">#C6C6C6</drawable>
+	
+	<drawable name="cListLine">#C6C6C6</drawable>
+
+	<color name="rem_purple">#B8B8E9</color> 				<!-- composer reminder background color -->
+	
+	
+	<!--temp-->
+
+	<color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+	
+	<color name="orange">#FFA200</color>
+	
+	<color name="write_extract_bg">#949494</color>
+	
+    <drawable name="transParent">#00aaaaaa</drawable>
+    <drawable name="divider">#80959595</drawable>
+
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	<drawable name="dimgray">#696969</drawable>
+	<drawable name="orange">#FF6600</drawable>
+	
+    <drawable name="cRed">#ACFF0000</drawable>
+    <drawable name="cWhite">#FFFFFF</drawable>
+    <drawable name="cBlack">#000000</drawable>
+    
+    
+    <drawable name="wListLine">#C6C6C6</drawable>
+	<drawable name="bListLine">#30CECECE</drawable>    
+
+	<color name="sel_img_dlg_background">#eed6d7d6</color>
+    <color name="transparent">#ffffffff</color>
+    
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlexPro Mobile</string>
+    
+    <string name="home_menu_title1">章ごとに暗記する</string>
+    <string name="home_menu_title2">重要論点ごとに暗記する</string>
+	<string name="home_menu_bookmark">チェックした論点を見る</string>
+	<string name="home_menu_setting">設定</string>
+	
+	<string name="banner_menu_home">Home</string>
+	
+	<string name="content_menu_prev">戻る</string>
+	<string name="content_menu_anwser">解答</string>
+	<string name="content_menu_question">問題</string>
+	<string name="content_menu_next">次へ</string>
+
+	<string name="bookmark_title">ブックマーク</string>
+	<string name="bookmark_back">戻る</string>
+	<string name="bookmark_edit">編集</string>
+		
+	<string name="setting_title">設定</string>
+	<string name="setting_back">戻る</string>
+	<string name="setting_title1">スタイルの設定</string>
+	<string name="setting_style1">スタイリッシュブラック</string>
+	<string name="setting_style2">エコグリーン</string>
+	<string name="setting_style3">サンシャインオレンジ</string>
+	
+	<string name="setting_title2">フォントサイズ</string>
+	
+	<string name="alert_dialog_ok">OK</string>
+	<string name="alert_dialog_cancel">Cancel</string>
+	
+	<string name="load_fail">load data failure!</string>
+
+    <string name="temp">不動産鑑定士評価基準</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+    		
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_font_size">
+        <item>10px</item>
+        <item>11px</item>
+		<item>12px</item>
+		<item>13px</item>
+		<item>14px</item>
+		<item>15px</item>
+		<item>16px</item>
+	</string-array>
+    
+</resources>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<title>FlexPro Mobile</title>
+    <script type="text/javascript" charset="utf-8" src="js/cordova-2.0.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/uploadplugin.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/paymentplugin.js"></script>
+    <script type="text/javascript">
+	function onBodyLoad()
+	{		
+		document.addEventListener("deviceready", onDeviceReady, false);
+	}
+
+	function onDeviceReady()
+	{
+		navigator.notification.alert("Cordova is working")
+	}
+        
+    function callNativeUploadPlugin( returnSuccess ) {
+        UploadPlugin.callNativeFunction( nativePluginResultHandler, nativePluginErrorHandler, returnSuccess );
+    }
+
+    function callNativePaymentPlugin( returnSuccess ) {
+        PaymentPlugin.callNativeFunction( nativePluginResultHandler, nativePluginErrorHandler, returnSuccess );
+    }
+
+    function nativePluginResultHandler (result) {
+       //alert("SUCCESS: \r\n"+result );
+    }
+
+    function nativePluginErrorHandler (error) {
+       alert("ERROR: \r\n"+error );
+    }
+   	</script>
+</head>
+
+<body onload="onBodyLoad()">
+	<h1>Hey, it's Cordova!</h1>
+	  
+	<button onclick="callNativeUploadPlugin('success');">Click to invoke the 'Upload' plugin.</button>
+	<button onclick="callNativePaymentPlugin('success');">Click to invoke the 'Payment' plugin.</button>
+</body>
+
+</html>

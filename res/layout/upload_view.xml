@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pay_bg" >
+
+	<RelativeLayout
+	    android:id="@+id/id_titlebar"
+	    android:layout_alignParentTop="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center" >
+    	
+	    <TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:text="Upload Image"
+		    android:textColor="#ffffff"
+		    android:textSize="22dp"
+		    android:background="@drawable/bg_title" />
+	    
+	    <Button
+	        android:id="@+id/id_back_btn"
+			android:layout_alignParentRight="true"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_centerVertical="true"
+	    	android:layout_marginLeft="20dp"
+	    	android:background="@drawable/bg_button_ok" />
+	    			    
+    </RelativeLayout>
+		
+	<LinearLayout
+	    android:layout_below="@id/id_titlebar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/pay_bg" >
+
+	    <ImageView
+		    android:id="@+id/id_image_view"
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_margin="10dp"
+		    android:layout_weight="1"
+		    android:padding="2dp"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/imageview_border" />
+	    
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+			<Button
+		        android:id="@+id/id_select_img_btn"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="0.5"
+			    android:text="Select Image" />
+			    
+			<Button
+		        android:id="@+id/id_take_img_btn"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="0.5"
+			    android:text="Take Image" />
+				    
+	    </LinearLayout>
+	    
+		<Button
+			android:id="@+id/id_upload_img_btn"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="Upload" />
+		
+	</LinearLayout>
+		
+</RelativeLayout>
