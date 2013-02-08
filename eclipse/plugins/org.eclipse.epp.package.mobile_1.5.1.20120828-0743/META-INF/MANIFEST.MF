@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: Eclipse Packaging Project
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: EPP Mobile Package
+Bundle-SymbolicName: org.eclipse.epp.package.mobile;singleton:=true
+Require-Bundle: org.eclipse.platform;bundle-version="[4.2.0,5.0.0)",or
+ g.eclipse.equinox.app;bundle-version="[1.3.0,2.0.0)"
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-Version: 1.5.1.20120828-0743
+Bundle-ManifestVersion: 2
+
+Name: eclipse32.png
+SHA1-Digest: eCk/A3/COXL3S6qAVDOSrlsqmLw=
+
+Name: eclipse48.gif
+SHA1-Digest: wzuHxugoGF9ip2YX+dp2pqBg3X4=
+
+Name: intro-eclipse.png
+SHA1-Digest: IUrE9u5RnkRx7unbvyyosuGTAOE=
+
+Name: eclipse.png
+SHA1-Digest: Wn4ZtSh8OGwHMxNVSl1blf1x/8A=
+
+Name: about.ini
+SHA1-Digest: XkSK515LNKTtkUF7XBt24/D5sFU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: epp-mobile-about.png
+SHA1-Digest: bp2iIAOEAgsVC5bzBK7yCZBdYa4=
+
+Name: about.mappings
+SHA1-Digest: +y/5EiWV0xRlMHZ3EVD9Jes4Gak=
+
+Name: eclipse48.png
+SHA1-Digest: fOC/Uu6aZ5meBi9nhXV5pSTmoSk=
+
+Name: about.html
+SHA1-Digest: /CETf4WmV+BiPhUbrICU0RE3BVM=
+
+Name: about.properties
+SHA1-Digest: nKEnJhe6TyzPipZOMhxOL4tw/nk=
+
+Name: eclipse32.gif
+SHA1-Digest: OEzrrdlwkZJntOw0ED9ewvFb4ms=
+
+Name: plugin.xml
+SHA1-Digest: kbJ1kqpf+Ag9to+VM4xqY0Q8Go0=
+
+Name: plugin_customization.ini
+SHA1-Digest: iqBx1Vx6X/ittoOyi8d6BgU8fuI=
+
+Name: eclipse.gif
+SHA1-Digest: qqPgXl0Cuu7J+oyLI7KYJzKh5GQ=
+

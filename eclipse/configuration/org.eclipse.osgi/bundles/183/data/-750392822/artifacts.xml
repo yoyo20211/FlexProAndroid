@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: https://dl-ssl.google.com/android/eclipse/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1360274812782'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='666417161'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='15'>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.gldebugger' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/features/com.android.ide.eclipse.gldebugger_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.adt' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.adt_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.adt.package' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.adt.package_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='overlay.com.android.ide.eclipse.adt.overlay' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/overlay.com.android.ide.eclipse.adt.overlay_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.ddms' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.ddms_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.gldebugger' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.gldebugger_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.adt' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/features/com.android.ide.eclipse.adt_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.ndk' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/features/com.android.ide.eclipse.ndk_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.traceview' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/features/com.android.ide.eclipse.traceview_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.ddms' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/features/com.android.ide.eclipse.ddms_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.hierarchyviewer' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.hierarchyviewer_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.base' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.base_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.traceview' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.traceview_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.ndk' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/plugins/com.android.ide.eclipse.ndk_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.hierarchyviewer' version='21.0.1.v201212060256-543035'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='https://dl-ssl.google.com/android/eclipse/features/com.android.ide.eclipse.hierarchyviewer_21.0.1.v201212060256-543035.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
